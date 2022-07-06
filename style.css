@@ -6,6 +6,10 @@ body {
     margin: 0%;
 }
 
+p span {
+    color: black;
+}
+
 .top-baner {
     background-image: url(images/donation4.jpg);
     background-repeat: no-repeat;
@@ -29,6 +33,19 @@ body {
     padding-top: 170px;
 }
 
+.font-aline-center {
+    text-align: center;
+}
+
+
+.p-color {
+    color: #5c5c5c;
+}
+
+.Donate-Today-style {
+    font-size: 50px
+}
+
 .link-button {
     width: 10px;
     background-image: linear-gradient(#ff3e3e, #ff0000);
@@ -38,4 +55,52 @@ body {
     color: #ffffff;
     font-size: larger;
 
+}
+
+
+.donate-amout {
+    display: flex;
+    margin: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.half-width {
+    width: 300px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    color: #5c5c5c;
+}
+
+.color-add-box {
+    border: solid #ff0000 2px;
+    border-radius: 5px;
+    margin: px;
+    color: #ff3e3e;
+    background-color: #ffd4d4;
+}
+
+
+.button-donete {
+    display: flex;
+    justify-content: center;
+}
+
+.button-2 {
+    padding: 15px 25px;
+    background-color: #ff0000;
+    border: none;
+    color: white;
+    font-size: 22px;
+    border-radius: 5px;
+}
+
+.border-line {
+    border-bottom: solid #5c5c5c 2px;
+    width: 100%;
+    margin-left: 20%;
+    margin-right: 55%;
 }
