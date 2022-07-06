@@ -100,7 +100,50 @@ p span {
 
 .border-line {
     border-bottom: solid #5c5c5c 2px;
+    display: flex;
+    margin: 20px;
+    padding-left: 40%;
+    padding-right: 40%;
+
+}
+
+.donate-service {
+    display: flex;
+    padding: 5%;
+
+}
+
+.service-half-width {
+    width: 300px;
+    padding: 30px;
+    text-align: left;
+    margin: 30px;
+}
+
+#food-color {
+    background-color: #edf5f6;
+}
+
+#family-color {
+    background-color: #ffeeee;
+}
+
+#Education-color {
+    background-color: #fff4d6;
+}
+
+footer {
+    background-color: #0e0e0e;
     width: 100%;
-    margin-left: 20%;
-    margin-right: 55%;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+
+}
+
+#footer-name {
+    color: #b8b8b8;
 }
