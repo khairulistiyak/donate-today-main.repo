@@ -38,7 +38,7 @@ p span {
 }
 
 
-.p-color {
+.paragraph-color {
     color: #5c5c5c;
 }
 
@@ -84,7 +84,7 @@ p span {
 }
 
 
-.button-donete {
+.button-center {
     display: flex;
     justify-content: center;
 }
@@ -167,4 +167,8 @@ footer {
 .lives-half-width {
     padding-left: 5%;
     padding-right: 5%;
+}
+
+.Updates {
+    padding-bottom: 100px;
 }
